@@ -1,0 +1,12 @@
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDomain\bin\Debug\netcoreapp3.1\AppDomain.deps.json
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDomain\bin\Debug\netcoreapp3.1\AppDomain.dll
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDomain\obj\Debug\netcoreapp3.1\AppDomain.csprojAssemblyReference.cache
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDomain\obj\Debug\netcoreapp3.1\AppDomain.AssemblyInfoInputs.cache
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDomain\obj\Debug\netcoreapp3.1\AppDomain.AssemblyInfo.cs
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDomain\bin\Debug\netcoreapp3.1\AppDomain.runtimeconfig.json
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDomain\bin\Debug\netcoreapp3.1\AppDomain.runtimeconfig.dev.json
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDomain\obj\Debug\netcoreapp3.1\AppDomain.genruntimeconfig.cache
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDomain\bin\Debug\netcoreapp3.1\AppDomain.pdb
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDomain\obj\Debug\netcoreapp3.1\AppDomain.csproj.CoreCompileInputs.cache
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDomain\obj\Debug\netcoreapp3.1\AppDomain.dll
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDomain\obj\Debug\netcoreapp3.1\AppDomain.pdb

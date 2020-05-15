@@ -1,0 +1,15 @@
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDAL\bin\Debug\netcoreapp3.1\AppDAL.deps.json
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDAL\bin\Debug\netcoreapp3.1\AppDAL.dll
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDAL\obj\Debug\netcoreapp3.1\AppDAL.csprojAssemblyReference.cache
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDAL\obj\Debug\netcoreapp3.1\AppDAL.AssemblyInfoInputs.cache
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDAL\obj\Debug\netcoreapp3.1\AppDAL.AssemblyInfo.cs
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDAL\bin\Debug\netcoreapp3.1\AppDAL.runtimeconfig.json
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDAL\bin\Debug\netcoreapp3.1\AppDAL.runtimeconfig.dev.json
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDAL\obj\Debug\netcoreapp3.1\AppDAL.genruntimeconfig.cache
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDAL\bin\Debug\netcoreapp3.1\AppDAL.pdb
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDAL\bin\Debug\netcoreapp3.1\AppDomain.dll
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDAL\bin\Debug\netcoreapp3.1\AppDomain.pdb
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDAL\obj\Debug\netcoreapp3.1\AppDAL.csproj.CoreCompileInputs.cache
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDAL\obj\Debug\netcoreapp3.1\AppDAL.csproj.CopyComplete
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDAL\obj\Debug\netcoreapp3.1\AppDAL.dll
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppDAL\obj\Debug\netcoreapp3.1\AppDAL.pdb
