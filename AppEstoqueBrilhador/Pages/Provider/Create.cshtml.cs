@@ -25,7 +25,7 @@ namespace AppEstoqueBrilhador.Pages.Provider
         }
 
         [BindProperty]
-        public ProviderX Provider { get; set; }
+        public ProviderX ProviderX { get; set; }
 
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://aka.ms/RazorPagesCRUD.
@@ -36,7 +36,7 @@ namespace AppEstoqueBrilhador.Pages.Provider
                 return Page();
             }
 
-            _context.Providers.Add(Provider);
+            _context.Providers.Add(ProviderX);
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");

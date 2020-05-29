@@ -178,9 +178,6 @@ C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\bin\Debug\ne
 C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\AppEstoqueBrilhador.csproj.CoreCompileInputs.cache
-C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\AppEstoqueBrilhador.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\AppEstoqueBrilhador.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\Razor\Pages\Products\Create.cshtml.g.cs
 C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\Razor\Pages\Products\Delete.cshtml.g.cs
 C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\Razor\Pages\Products\Details.cshtml.g.cs
@@ -191,3 +188,6 @@ C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\ne
 C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\Razor\Pages\Provider\Details.cshtml.g.cs
 C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\Razor\Pages\Provider\Edit.cshtml.g.cs
 C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\Razor\Pages\Provider\Index.cshtml.g.cs
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\AppEstoqueBrilhador.csproj.CoreCompileInputs.cache
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\AppEstoqueBrilhador.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\AppEstoqueBrilhador.MvcApplicationPartsAssemblyInfo.cache

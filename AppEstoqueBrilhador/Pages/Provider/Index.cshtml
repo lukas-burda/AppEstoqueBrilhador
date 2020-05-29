@@ -2,31 +2,34 @@
 @model AppEstoqueBrilhador.Pages.Provider.IndexModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Fornecedores";
 }
 
-<h1>Index</h1>
+<h1>Cadastro de Fornecedores</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create">Inserir novo Fornecedor</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Provider[0].cnpj)
+                @Html.DisplayNameFor(model => model.ProviderX[0].cnpj)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Provider[0].nomeFantasia)
+                @Html.DisplayNameFor(model => model.ProviderX[0].nomeFantasia)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Provider[0].endereco)
+                @Html.DisplayNameFor(model => model.ProviderX[0].endereco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProviderX[0].telefone)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.Provider) {
+@foreach (var item in Model.ProviderX) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.cnpj)
@@ -38,9 +41,12 @@
                 @Html.DisplayFor(modelItem => item.endereco)
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.id">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.id">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.id">Delete</a>
+                @Html.DisplayFor(modelItem => item.telefone)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.id">Editar</a> |
+                <a asp-page="./Details" asp-route-id="@item.id">Detalhes</a> |
+                <a asp-page="./Delete" asp-route-id="@item.id">Deletar</a>
             </td>
         </tr>
 }

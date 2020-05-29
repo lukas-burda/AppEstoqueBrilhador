@@ -21,7 +21,7 @@ namespace AppEstoqueBrilhador.Pages.Provider
         }
 
         [BindProperty]
-        public ProviderX Provider { get; set; }
+        public ProviderX ProviderX { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -30,9 +30,9 @@ namespace AppEstoqueBrilhador.Pages.Provider
                 return NotFound();
             }
 
-            Provider = await _context.Providers.FirstOrDefaultAsync(m => m.id == id);
+            ProviderX = await _context.Providers.FirstOrDefaultAsync(m => m.id == id);
 
-            if (Provider == null)
+            if (ProviderX == null)
             {
                 return NotFound();
             }
@@ -48,7 +48,7 @@ namespace AppEstoqueBrilhador.Pages.Provider
                 return Page();
             }
 
-            _context.Attach(Provider).State = EntityState.Modified;
+            _context.Attach(ProviderX).State = EntityState.Modified;
 
             try
             {
@@ -56,7 +56,7 @@ namespace AppEstoqueBrilhador.Pages.Provider
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!ProviderExists(Provider.id))
+                if (!ProviderXExists(ProviderX.id))
                 {
                     return NotFound();
                 }
@@ -69,7 +69,7 @@ namespace AppEstoqueBrilhador.Pages.Provider
             return RedirectToPage("./Index");
         }
 
-        private bool ProviderExists(int id)
+        private bool ProviderXExists(int id)
         {
             return _context.Providers.Any(e => e.id == id);
         }

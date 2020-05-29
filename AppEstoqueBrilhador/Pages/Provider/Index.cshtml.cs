@@ -19,11 +19,11 @@ namespace AppEstoqueBrilhador.Pages.Provider
             _context = context;
         }
 
-        public IList<ProviderX> Provider { get;set; }
+        public IList<ProviderX> ProviderX { get;set; }
 
         public async Task OnGetAsync()
         {
-            Provider = await _context.Providers.ToListAsync();
+            ProviderX = await _context.Providers.ToListAsync();
         }
     }
 }

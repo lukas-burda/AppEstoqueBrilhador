@@ -29,6 +29,7 @@ namespace AppEstoqueBrilhador
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ProductContext>();
+            services.AddDbContext<ProviderContext>();
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));

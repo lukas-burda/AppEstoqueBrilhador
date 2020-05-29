@@ -19,7 +19,7 @@ namespace AppEstoqueBrilhador.Pages.Provider
             _context = context;
         }
 
-        public ProviderX Provider { get; set; }
+        public ProviderX ProviderX { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -28,9 +28,9 @@ namespace AppEstoqueBrilhador.Pages.Provider
                 return NotFound();
             }
 
-            Provider = await _context.Providers.FirstOrDefaultAsync(m => m.id == id);
+            ProviderX = await _context.Providers.FirstOrDefaultAsync(m => m.id == id);
 
-            if (Provider == null)
+            if (ProviderX == null)
             {
                 return NotFound();
             }
