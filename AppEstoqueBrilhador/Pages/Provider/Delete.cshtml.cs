@@ -12,9 +12,9 @@ namespace AppEstoqueBrilhador.Pages.Provider
 {
     public class DeleteModel : PageModel
     {
-        private readonly AppDAL.ProviderContext _context;
+        private readonly AppDAL.Context _context;
 
-        public DeleteModel(AppDAL.ProviderContext context)
+        public DeleteModel(AppDAL.Context context)
         {
             _context = context;
         }
@@ -50,6 +50,11 @@ namespace AppEstoqueBrilhador.Pages.Provider
             if (ProviderX != null)
             {
                 _context.Providers.Remove(ProviderX);
+                Log log = new Log();
+                log.date = DateTime.Now;
+                log.action = "Remoção de Fornecedor";
+                log.log = ProviderX.nomeFantasia;
+                _context.Lista.Add(log);
                 await _context.SaveChangesAsync();
             }
 

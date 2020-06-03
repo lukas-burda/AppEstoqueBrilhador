@@ -13,9 +13,9 @@ namespace AppEstoqueBrilhador.Pages.Provider
 {
     public class EditModel : PageModel
     {
-        private readonly AppDAL.ProviderContext _context;
+        private readonly AppDAL.Context _context;
 
-        public EditModel(AppDAL.ProviderContext context)
+        public EditModel(AppDAL.Context context)
         {
             _context = context;
         }
@@ -49,6 +49,11 @@ namespace AppEstoqueBrilhador.Pages.Provider
             }
 
             _context.Attach(ProviderX).State = EntityState.Modified;
+            Log log = new Log();
+            log.date = DateTime.Now;
+            log.action = "Edição de Fornecedor";
+            log.log = ProviderX.nomeFantasia;
+            _context.Lista.Add(log);
 
             try
             {

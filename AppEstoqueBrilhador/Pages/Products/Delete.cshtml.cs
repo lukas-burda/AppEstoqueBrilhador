@@ -12,9 +12,9 @@ namespace AppEstoqueBrilhador.Pages.Products
 {
     public class DeleteModel : PageModel
     {
-        private readonly AppDAL.ProductContext _context;
+        private readonly AppDAL.Context _context;
 
-        public DeleteModel(AppDAL.ProductContext context)
+        public DeleteModel(AppDAL.Context context)
         {
             _context = context;
         }
@@ -50,6 +50,11 @@ namespace AppEstoqueBrilhador.Pages.Products
             if (Product != null)
             {
                 _context.Products.Remove(Product);
+                Log log = new Log();
+                log.date = DateTime.Now;
+                log.action = "Remoção de Produto";
+                log.log = Product.Name;
+                _context.Lista.Add(log);
                 await _context.SaveChangesAsync();
             }
 

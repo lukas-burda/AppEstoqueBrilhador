@@ -1,0 +1,42 @@
+﻿@page
+@model AppEstoqueBrilhador.Pages.Lista.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Movimentações do Estoque</h1>
+
+<br>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <p>Data</p>
+            </th>
+            <th>
+                <p>Nome</p>
+            </th>
+            <th>
+                <p>Tipo</p>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Log) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.log)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.action)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

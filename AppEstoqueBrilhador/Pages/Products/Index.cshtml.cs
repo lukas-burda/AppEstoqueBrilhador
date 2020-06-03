@@ -12,9 +12,9 @@ namespace AppEstoqueBrilhador.Pages.Products
 {
     public class IndexModel : PageModel
     {
-        private readonly AppDAL.ProductContext _context;
+        private readonly AppDAL.Context _context;
 
-        public IndexModel(AppDAL.ProductContext context)
+        public IndexModel(AppDAL.Context context)
         {
             _context = context;
         }

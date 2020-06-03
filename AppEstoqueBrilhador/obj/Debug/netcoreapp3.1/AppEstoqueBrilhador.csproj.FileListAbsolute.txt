@@ -191,3 +191,4 @@ C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\ne
 C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\AppEstoqueBrilhador.csproj.CoreCompileInputs.cache
 C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\AppEstoqueBrilhador.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\AppEstoqueBrilhador.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lukas\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\Razor\Pages\Lista\Index.cshtml.g.cs

@@ -13,9 +13,9 @@ namespace AppEstoqueBrilhador.Pages.Products
 {
     public class EditModel : PageModel
     {
-        private readonly AppDAL.ProductContext _context;
+        private readonly AppDAL.Context _context;
 
-        public EditModel(AppDAL.ProductContext context)
+        public EditModel(AppDAL.Context context)
         {
             _context = context;
         }
@@ -49,6 +49,11 @@ namespace AppEstoqueBrilhador.Pages.Products
             }
 
             _context.Attach(Product).State = EntityState.Modified;
+            Log log = new Log();
+            log.date = DateTime.Now;
+            log.action = "Edição de Produto";
+            log.log = Product.Name;
+            _context.Lista.Add(log);
 
             try
             {

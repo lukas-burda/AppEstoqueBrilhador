@@ -12,9 +12,9 @@ namespace AppEstoqueBrilhador.Pages.Products
 {
     public class CreateModel : PageModel
     {
-        private readonly AppDAL.ProductContext _context;
+        private readonly AppDAL.Context _context;
 
-        public CreateModel(AppDAL.ProductContext context)
+        public CreateModel(AppDAL.Context context)
         {
             _context = context;
         }
@@ -31,12 +31,20 @@ namespace AppEstoqueBrilhador.Pages.Products
         // more details, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
+
             if (!ModelState.IsValid)
             {
                 return Page();
             }
 
             _context.Products.Add(Product);
+
+            Log log = new Log();
+            log.date = DateTime.Now;
+            log.action = "Adição de novo Produto";
+            log.log = Product.Name;
+            _context.Lista.Add(log);
+
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");

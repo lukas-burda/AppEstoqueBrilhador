@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using AppDAL;
 using AppDomain;
 
-namespace AppEstoqueBrilhador.Pages.Provider
+namespace AppEstoqueBrilhador.Pages.Lista
 {
     public class IndexModel : PageModel
     {
@@ -19,11 +19,11 @@ namespace AppEstoqueBrilhador.Pages.Provider
             _context = context;
         }
 
-        public IList<ProviderX> ProviderX { get;set; }
+        public IList<Log> Log { get;set; }
 
         public async Task OnGetAsync()
         {
-            ProviderX = await _context.Providers.ToListAsync();
+            Log = await _context.Lista.ToListAsync();
         }
     }
 }

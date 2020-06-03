@@ -14,16 +14,16 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.ProviderX[0].cnpj)
+                <p>CNPJ</p>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ProviderX[0].nomeFantasia)
+                <p>Nome Fantasia</p>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ProviderX[0].endereco)
+                <p>Endereço</p>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ProviderX[0].telefone)
+                <p>Contato</p>
             </th>
             <th></th>
         </tr>
@@ -32,16 +32,16 @@
 @foreach (var item in Model.ProviderX) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.cnpj)
+                <p>CNPJ</p>
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.nomeFantasia)
+                <p>Nome Fantasia</p>
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.endereco)
+                <p>Endereço</p>
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.telefone)
+                <p>Telefone</p>
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.id">Editar</a> |

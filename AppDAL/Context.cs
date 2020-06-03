@@ -6,10 +6,11 @@ using System.Text;
 
 namespace AppDAL
 {
-    public class ProviderContext : DbContext
+    public class Context : DbContext
     {
+        public DbSet<Log> Lista { get; set; }
+        public DbSet<Product> Products { get; set; }
         public DbSet<ProviderX> Providers { get; set; }
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);

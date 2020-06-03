@@ -12,9 +12,9 @@ namespace AppEstoqueBrilhador.Pages.Provider
 {
     public class DetailsModel : PageModel
     {
-        private readonly AppDAL.ProviderContext _context;
+        private readonly AppDAL.Context _context;
 
-        public DetailsModel(AppDAL.ProviderContext context)
+        public DetailsModel(AppDAL.Context context)
         {
             _context = context;
         }
