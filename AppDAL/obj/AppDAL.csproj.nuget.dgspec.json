@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lukas\\source\\repos\\AppEstoqueBrilhador\\AppDAL\\AppDAL.csproj": {}
+    "C:\\Users\\Valesko\\Desktop\\AppEstoqueBrilhador\\AppDAL\\AppDAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lukas\\source\\repos\\AppEstoqueBrilhador\\AppDAL\\AppDAL.csproj": {
+    "C:\\Users\\Valesko\\Desktop\\AppEstoqueBrilhador\\AppDAL\\AppDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lukas\\source\\repos\\AppEstoqueBrilhador\\AppDAL\\AppDAL.csproj",
+        "projectUniqueName": "C:\\Users\\Valesko\\Desktop\\AppEstoqueBrilhador\\AppDAL\\AppDAL.csproj",
         "projectName": "AppDAL",
-        "projectPath": "C:\\Users\\Lukas\\source\\repos\\AppEstoqueBrilhador\\AppDAL\\AppDAL.csproj",
-        "packagesPath": "C:\\Users\\Lukas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lukas\\source\\repos\\AppEstoqueBrilhador\\AppDAL\\obj\\",
+        "projectPath": "C:\\Users\\Valesko\\Desktop\\AppEstoqueBrilhador\\AppDAL\\AppDAL.csproj",
+        "packagesPath": "C:\\Users\\Valesko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Valesko\\Desktop\\AppEstoqueBrilhador\\AppDAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Valesko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Lukas\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj": {
-                "projectPath": "C:\\Users\\Lukas\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj"
+              "C:\\Users\\Valesko\\Desktop\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj": {
+                "projectPath": "C:\\Users\\Valesko\\Desktop\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj"
               }
             }
           }
@@ -73,26 +73,32 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lukas\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj": {
+    "C:\\Users\\Valesko\\Desktop\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lukas\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj",
+        "projectUniqueName": "C:\\Users\\Valesko\\Desktop\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj",
         "projectName": "AppDomain",
-        "projectPath": "C:\\Users\\Lukas\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj",
-        "packagesPath": "C:\\Users\\Lukas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lukas\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\obj\\",
+        "projectPath": "C:\\Users\\Valesko\\Desktop\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj",
+        "packagesPath": "C:\\Users\\Valesko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Valesko\\Desktop\\AppEstoqueBrilhador\\AppDomain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Valesko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -147,12 +153,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

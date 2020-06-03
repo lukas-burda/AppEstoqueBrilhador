@@ -29,26 +29,27 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.ProviderX) {
-        <tr>
-            <td>
-                <p>CNPJ</p>
-            </td>
-            <td>
-                <p>Nome Fantasia</p>
-            </td>
-            <td>
-                <p>Endereço</p>
-            </td>
-            <td>
-                <p>Telefone</p>
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.id">Editar</a> |
-                <a asp-page="./Details" asp-route-id="@item.id">Detalhes</a> |
-                <a asp-page="./Delete" asp-route-id="@item.id">Deletar</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model.ProviderX)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.cnpj)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nomeFantasia)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.endereco)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.telefone)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.id">Editar</a> |
+                    <a asp-page="./Details" asp-route-id="@item.id">Detalhes</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.id">Deletar</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lukas\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj": {}
+    "C:\\Users\\Valesko\\Desktop\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lukas\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj": {
+    "C:\\Users\\Valesko\\Desktop\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lukas\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj",
+        "projectUniqueName": "C:\\Users\\Valesko\\Desktop\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj",
         "projectName": "AppDomain",
-        "projectPath": "C:\\Users\\Lukas\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj",
-        "packagesPath": "C:\\Users\\Lukas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lukas\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\obj\\",
+        "projectPath": "C:\\Users\\Valesko\\Desktop\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj",
+        "packagesPath": "C:\\Users\\Valesko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Valesko\\Desktop\\AppEstoqueBrilhador\\AppDomain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Valesko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,12 +69,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
