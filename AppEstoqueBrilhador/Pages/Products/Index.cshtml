@@ -10,6 +10,15 @@
 <p>
     <a asp-page="Create">Inserir novo Produto</a>
 </p>
+
+<form>
+    <p>
+        Produto: <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Pesquisar" />
+        <a asp-page="Index">Voltar</a>
+    </p>
+</form>
+
 <table class="table">
     <thead>
         <tr>

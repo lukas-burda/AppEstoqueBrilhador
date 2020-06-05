@@ -13,34 +13,34 @@
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
-            <p>CNPJ</p>
+            @Html.DisplayNameFor(model => model.ProviderX.cnpj)
         </dt>
         <dd class="col-sm-10">
-            <p>CNPJ</p>
+            @Html.DisplayFor(model => model.ProviderX.cnpj)
         </dd>
         <dt class="col-sm-2">
-            <p>Nome Fantasia</p>
+            @Html.DisplayNameFor(model => model.ProviderX.nomeFantasia)
         </dt>
         <dd class="col-sm-10">
-            <p>Nome Fantasia</p>
+            @Html.DisplayFor(model => model.ProviderX.nomeFantasia)
         </dd>
         <dt class="col-sm-2">
-            <p>Endereço</p>
+            @Html.DisplayNameFor(model => model.ProviderX.endereco)
         </dt>
         <dd class="col-sm-10">
-            <p>Endereço</p>
+            @Html.DisplayFor(model => model.ProviderX.endereco)
         </dd>
         <dt class="col-sm-2">
-            <p>Telefone</p>
+            @Html.DisplayNameFor(model => model.ProviderX.telefone)
         </dt>
         <dd class="col-sm-10">
-            <p>Telefone</p>
+            @Html.DisplayFor(model => model.ProviderX.telefone)
         </dd>
     </dl>
     
     <form method="post">
         <input type="hidden" asp-for="ProviderX.id" />
         <input type="submit" value="Deletar" class="btn btn-danger" /> |
-        <a asp-page="./Index">Voltar para lista</a>
+        <a asp-page="./Index">Voltar</a>
     </form>
 </div>

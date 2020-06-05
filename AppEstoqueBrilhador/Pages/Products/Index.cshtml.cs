@@ -20,10 +20,20 @@ namespace AppEstoqueBrilhador.Pages.Products
         }
 
         public IList<Product> Product { get;set; }
+        [BindProperty(SupportsGet = true)]
+        public string SearchString { get; set; }
 
         public async Task OnGetAsync()
         {
-            Product = await _context.Products.ToListAsync();
+            var searchProd = from Name in _context.Products
+                         select Name;
+            if (!string.IsNullOrEmpty(SearchString))
+            {
+                searchProd = searchProd.Where(s => s.Name.Contains(SearchString));
+            }
+
+            Product = await searchProd.ToListAsync();
         }
+
     }
 }

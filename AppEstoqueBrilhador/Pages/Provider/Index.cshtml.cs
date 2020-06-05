@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using AppDAL;
 using AppDomain;
+using Microsoft.AspNetCore.Http.Features;
 
 namespace AppEstoqueBrilhador.Pages.Provider
 {
@@ -21,9 +22,26 @@ namespace AppEstoqueBrilhador.Pages.Provider
 
         public IList<ProviderX> ProviderX { get;set; }
 
+        [BindProperty(SupportsGet = true)]
+        public string SearchString { get; set; }
         public async Task OnGetAsync()
         {
-            ProviderX = await _context.Providers.ToListAsync();
+            var searchProv = from m in _context.Providers
+                         select m;
+            var searchProvName = from m in _context.Providers
+                             select m;
+            if (!string.IsNullOrEmpty(SearchString))
+            {
+                searchProv = searchProv.Where(s => s.cnpj.Contains(SearchString));
+                searchProvName = searchProvName.Where(s => s.nomeFantasia.Contains(SearchString));
+            }
+
+
+            ProviderX = await searchProv.ToListAsync();
+            
+            if (ProviderX.Count == 0) { 
+            ProviderX = await searchProvName.ToListAsync();
+            }
         }
     }
 }
