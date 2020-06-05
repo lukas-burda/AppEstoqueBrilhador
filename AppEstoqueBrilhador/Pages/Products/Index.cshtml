@@ -3,6 +3,7 @@
 
 @{
     ViewData["Title"] = "Página Inicial - Produtos";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
 <h1>Produtos</h1>
@@ -20,7 +21,7 @@
                 <p>Preço</p>
             </th>
             <th>
-               <p>Quantidade</p>
+                <p>Quantidade</p>
             </th>
             <th>
                 <p>Identificação do Fornecedor</p>
@@ -29,7 +30,7 @@
         </tr>
     </thead>
     <tbody>
-       @foreach (var item in Model.Product)
+        @foreach (var item in Model.Product)
         {
             <tr>
                 <td>
