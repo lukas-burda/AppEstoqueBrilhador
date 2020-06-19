@@ -5,20 +5,20 @@
     ViewData["Title"] = "Fornecedores";
 }
 
-<h1>Cadastro de Fornecedores</h1>
+<style>
+    .btn-primary {
+        background-color: #343a40 !important;
+    }
+</style>
 
-<p>
-    <a asp-page="Create">Inserir novo Fornecedor</a>
-</p>
+<h1>Fornecedores</h1>
 
-<form>
-    <p>
-        Nome/CNPJ: <input type="text" asp-for="SearchString" />
-        <input type="submit" value="Pesquisar" />
-        <a asp-page="Index">Voltar</a>
-
-    </p>
-</form>
+<div>
+    <a class="btn btn-primary" asp-page="Create" role="button" style="float:right">Inserir novo Fornecedor</a>
+    <input type="text" asp-for="SearchString" />
+    <input class="btn btn-primary" type="submit" value="Pesquisar">
+    <a class="btn btn-primary" asp-page="Index" role="button">Voltar</a>
+</div>
 
 
 <table class="table">
@@ -56,9 +56,9 @@
                     @Html.DisplayFor(modelItem => item.telefone)
                 </td>
                 <td>
-                    <a asp-page="./Edit" asp-route-id="@item.id">Editar</a> |
-                    <a asp-page="./Details" asp-route-id="@item.id">Detalhes</a> |
-                    <a asp-page="./Delete" asp-route-id="@item.id">Deletar</a>
+                    <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@item.id" role="button">Editar</a>
+                    <a class="btn btn-primary" asp-page="./Details" asp-route-id="@item.id" role="button">Detalhes</a>
+                    <a class="btn btn-primary" asp-page="./Delete" asp-route-id="@item.id" role="button">Deletar</a>
                 </td>
             </tr>
         }

@@ -5,6 +5,12 @@
     ViewData["Title"] = "Create";
 }
 
+<style>
+    .btn-primary {
+        background-color: #343a40 !important;
+    }
+</style>
+
 <h1>Dados do Fornecedor</h1>
 
 <h4>Fornecedor</h4>
@@ -34,14 +40,11 @@
                 <span asp-validation-for="ProviderX.telefone" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Criar" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-primary" />
+                <a class="btn btn-primary" asp-page="Index" role="button">Voltar</a>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-page="Index">Voltar</a>
 </div>
 
 @section Scripts {

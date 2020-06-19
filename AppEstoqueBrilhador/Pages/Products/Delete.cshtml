@@ -5,6 +5,12 @@
     ViewData["Title"] = "Delete";
 }
 
+<style>
+    .btn-primary {
+        background-color: #343a40 !important;
+    }
+</style>
+
 <h1>Deletar</h1>
 
 <h3>Você tem certeza que deseja deletar?</h3>
@@ -37,10 +43,10 @@
             @Html.DisplayFor(model => model.Product.ProviderId)
         </dd>
     </dl>
-    
+
     <form method="post">
         <input type="hidden" asp-for="Product.Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-page="./Index">Voltar</a>
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a class="btn btn-primary" asp-page="Index" role="button">Voltar</a>
     </form>
 </div>
