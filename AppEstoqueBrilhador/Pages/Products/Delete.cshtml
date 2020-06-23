@@ -2,7 +2,7 @@
 @model AppEstoqueBrilhador.Pages.Products.DeleteModel
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Deletar";
 }
 
 <style>
@@ -46,7 +46,7 @@
 
     <form method="post">
         <input type="hidden" asp-for="Product.Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" />
-        <a class="btn btn-primary" asp-page="Index" role="button">Voltar</a>
+        <input type="submit" value="Delete" class="btn btn-danger text-light" />
+        <a class="btn btn-primary text-light" asp-page="Index" role="button">Voltar</a>
     </form>
 </div>

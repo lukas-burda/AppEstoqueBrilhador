@@ -5002,19 +5002,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lukas Ferreira\\.nuget\\packages\\": {}
+    "C:\\Users\\henri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lukas Ferreira\\Source\\Repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj",
+      "projectUniqueName": "C:\\Users\\henri\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj",
       "projectName": "AppDomain",
-      "projectPath": "C:\\Users\\Lukas Ferreira\\Source\\Repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj",
-      "packagesPath": "C:\\Users\\Lukas Ferreira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lukas Ferreira\\Source\\Repos\\AppEstoqueBrilhador\\AppDomain\\obj\\",
+      "projectPath": "C:\\Users\\henri\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj",
+      "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\henri\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lukas Ferreira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

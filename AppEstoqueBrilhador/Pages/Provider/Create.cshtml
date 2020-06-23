@@ -20,28 +20,28 @@
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="ProviderX.cnpj" class="control-label"></label>
+                <label asp-for="ProviderX.cnpj" class="control-label">CNPJ</label>
                 <input asp-for="ProviderX.cnpj" class="form-control" />
                 <span asp-validation-for="ProviderX.cnpj" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ProviderX.nomeFantasia" class="control-label"></label>
+                <label asp-for="ProviderX.nomeFantasia" class="control-label">Nome Fornecedor</label>
                 <input asp-for="ProviderX.nomeFantasia" class="form-control" />
                 <span asp-validation-for="ProviderX.nomeFantasia" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ProviderX.endereco" class="control-label"></label>
+                <label asp-for="ProviderX.endereco" class="control-label">Endereço</label>
                 <input asp-for="ProviderX.endereco" class="form-control" />
                 <span asp-validation-for="ProviderX.endereco" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ProviderX.telefone" class="control-label"></label>
+                <label asp-for="ProviderX.telefone" class="control-label">Telefone</label>
                 <input asp-for="ProviderX.telefone" class="form-control" />
                 <span asp-validation-for="ProviderX.telefone" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-                <a class="btn btn-primary" asp-page="Index" role="button">Voltar</a>
+                <input type="submit" value="Criar" class="btn btn-primary text-light" />
+                <a class="btn btn-primary text-light" asp-page="Index" role="button">Voltar</a>
             </div>
         </form>
     </div>

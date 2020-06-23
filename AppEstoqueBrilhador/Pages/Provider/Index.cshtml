@@ -14,10 +14,10 @@
 <h1>Fornecedores</h1>
 
 <div>
-    <a class="btn btn-primary" asp-page="Create" role="button" style="float:right">Inserir novo Fornecedor</a>
+    <a class="btn btn-primary text-light" asp-page="Create" role="button" style="float:right">Inserir novo Fornecedor</a>
     <input type="text" asp-for="SearchString" />
-    <input class="btn btn-primary" type="submit" value="Pesquisar">
-    <a class="btn btn-primary" asp-page="Index" role="button">Voltar</a>
+    <input class="btn btn-primary text-light" type="submit" value="Pesquisar">
+    <a class="btn btn-primary text-light" asp-page="Index" role="button">Voltar</a>
 </div>
 
 
@@ -56,9 +56,9 @@
                     @Html.DisplayFor(modelItem => item.telefone)
                 </td>
                 <td>
-                    <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@item.id" role="button">Editar</a>
-                    <a class="btn btn-primary" asp-page="./Details" asp-route-id="@item.id" role="button">Detalhes</a>
-                    <a class="btn btn-primary" asp-page="./Delete" asp-route-id="@item.id" role="button">Deletar</a>
+                    <a class="btn btn-primary text-light" asp-page="./Edit" asp-route-id="@item.id" role="button">Editar</a>
+                    <a class="btn btn-primary text-light" asp-page="./Details" asp-route-id="@item.id" role="button">Detalhes</a>
+                    <a class="btn btn-primary text-light" asp-page="./Delete" asp-route-id="@item.id" role="button">Deletar</a>
                 </td>
             </tr>
         }
