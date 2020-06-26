@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AppDAL.Migrations
 {
-    [DbContext(typeof(ProductContext))]
+    [DbContext(typeof(Context))]
     [Migration("20200515050652_VersaoInicial")]
     partial class VersaoInicial
     {

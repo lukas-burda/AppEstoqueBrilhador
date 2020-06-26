@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AppDAL.Migrations.Provider
 {
-    [DbContext(typeof(ProviderContext))]
+    [DbContext(typeof(Context))]
     partial class ProviderContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

@@ -16,20 +16,24 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <partial name="_LoginPartial" />
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+
                         <ul class="navbar-nav flex-grow-1">
                             <li class="nav-item">
-                                <a class="nav-link text-light" asp-area="" asp-page="/Products/Index">Produtos</a>
+                                <a class="nav-link text-light" asp-area="" asp-page="/Private/Products/Index">Produtos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" asp-area="" asp-page="/Provider/Index">Fornecedores</a>
+                                <a class="nav-link text-light" asp-area="" asp-page="/Private/Provider/Index">Fornecedores</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" asp-area="" asp-page="/Lista/Index">Movimentações</a>
+                                <a class="nav-link text-light" asp-area="" asp-page="/Private/Lista/Index">Movimentações</a>
                             </li>
                         </ul>
-                </div>
+                    </div>
+                }
+                <partial name="_LoginPartial" />
             </div>
         </nav>
     </header>

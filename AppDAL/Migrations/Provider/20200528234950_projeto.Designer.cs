@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AppDAL.Migrations.Provider
 {
-    [DbContext(typeof(ProviderContext))]
+    [DbContext(typeof(Context))]
     [Migration("20200528234950_projeto")]
     partial class projeto
     {
