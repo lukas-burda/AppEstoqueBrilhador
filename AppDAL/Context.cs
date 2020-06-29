@@ -10,7 +10,7 @@ namespace AppDAL
     {
         public DbSet<Log> Lista { get; set; }
         public DbSet<Product> Products { get; set; }
-        public DbSet<ProviderX> Providers { get; set; }
+        public DbSet<ProviderX> Providers { get; set; } 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);

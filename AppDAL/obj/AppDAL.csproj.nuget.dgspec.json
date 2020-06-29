@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\henri\\source\\repos\\AppEstoqueBrilhador\\AppDAL\\AppDAL.csproj": {}
+    "C:\\Users\\Lukas Ferreira\\Source\\Repos\\AppEstoqueBrilhador\\AppDAL\\AppDAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\henri\\source\\repos\\AppEstoqueBrilhador\\AppDAL\\AppDAL.csproj": {
+    "C:\\Users\\Lukas Ferreira\\Source\\Repos\\AppEstoqueBrilhador\\AppDAL\\AppDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henri\\source\\repos\\AppEstoqueBrilhador\\AppDAL\\AppDAL.csproj",
+        "projectUniqueName": "C:\\Users\\Lukas Ferreira\\Source\\Repos\\AppEstoqueBrilhador\\AppDAL\\AppDAL.csproj",
         "projectName": "AppDAL",
-        "projectPath": "C:\\Users\\henri\\source\\repos\\AppEstoqueBrilhador\\AppDAL\\AppDAL.csproj",
-        "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henri\\source\\repos\\AppEstoqueBrilhador\\AppDAL\\obj\\",
+        "projectPath": "C:\\Users\\Lukas Ferreira\\Source\\Repos\\AppEstoqueBrilhador\\AppDAL\\AppDAL.csproj",
+        "packagesPath": "C:\\Users\\Lukas Ferreira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lukas Ferreira\\Source\\Repos\\AppEstoqueBrilhador\\AppDAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lukas Ferreira\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\henri\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj": {
-                "projectPath": "C:\\Users\\henri\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj"
+              "C:\\Users\\Lukas Ferreira\\Source\\Repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj": {
+                "projectPath": "C:\\Users\\Lukas Ferreira\\Source\\Repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj"
               }
             }
           }
@@ -44,23 +44,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[3.1.5, )"
             }
           },
           "imports": [
@@ -88,17 +88,17 @@
         }
       }
     },
-    "C:\\Users\\henri\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj": {
+    "C:\\Users\\Lukas Ferreira\\Source\\Repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henri\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj",
+        "projectUniqueName": "C:\\Users\\Lukas Ferreira\\Source\\Repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj",
         "projectName": "AppDomain",
-        "projectPath": "C:\\Users\\henri\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj",
-        "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henri\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\obj\\",
+        "projectPath": "C:\\Users\\Lukas Ferreira\\Source\\Repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj",
+        "packagesPath": "C:\\Users\\Lukas Ferreira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lukas Ferreira\\Source\\Repos\\AppEstoqueBrilhador\\AppDomain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lukas Ferreira\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -124,23 +124,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[3.1.5, )"
             }
           },
           "imports": [

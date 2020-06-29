@@ -841,7 +841,6 @@ C:\Users\Lukas Ferreira\Source\Repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj
 C:\Users\Lukas Ferreira\Source\Repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\Razor\Pages\Private\Provider\Details.cshtml.g.cs
 C:\Users\Lukas Ferreira\Source\Repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\Razor\Pages\Private\Provider\Edit.cshtml.g.cs
 C:\Users\Lukas Ferreira\Source\Repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\Razor\Pages\Private\Provider\Index.cshtml.g.cs
-C:\Users\Lukas Ferreira\Source\Repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\Razor\Pages\PLIndex.cshtml.g.cs
 C:\Users\henri\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\Razor\Pages\Private\Lista\Index.cshtml.g.cs
 C:\Users\henri\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\Razor\Pages\Private\Products\Create.cshtml.g.cs
 C:\Users\henri\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\Razor\Pages\Private\Products\Delete.cshtml.g.cs
@@ -854,3 +853,4 @@ C:\Users\henri\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\ne
 C:\Users\henri\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\Razor\Pages\Private\Provider\Edit.cshtml.g.cs
 C:\Users\henri\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\Razor\Pages\Private\Provider\Index.cshtml.g.cs
 C:\Users\henri\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\Razor\Pages\Private\PLIndex.cshtml.g.cs
+C:\Users\Lukas Ferreira\source\repos\AppEstoqueBrilhador\AppEstoqueBrilhador\obj\Debug\netcoreapp3.1\Razor\Pages\Private\PLIndex.cshtml.g.cs

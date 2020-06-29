@@ -27,7 +27,6 @@ C:\Users\Lukas Ferreira\Source\Repos\AppEstoqueBrilhador\AppDomain\bin\Debug\net
 C:\Users\Lukas Ferreira\Source\Repos\AppEstoqueBrilhador\AppDomain\bin\Debug\netcoreapp3.1\AppDomain.runtimeconfig.dev.json
 C:\Users\Lukas Ferreira\Source\Repos\AppEstoqueBrilhador\AppDomain\bin\Debug\netcoreapp3.1\AppDomain.dll
 C:\Users\Lukas Ferreira\Source\Repos\AppEstoqueBrilhador\AppDomain\bin\Debug\netcoreapp3.1\AppDomain.pdb
-C:\Users\Lukas Ferreira\Source\Repos\AppEstoqueBrilhador\AppDomain\obj\Debug\netcoreapp3.1\AppDomain.csprojAssemblyReference.cache
 C:\Users\Lukas Ferreira\Source\Repos\AppEstoqueBrilhador\AppDomain\obj\Debug\netcoreapp3.1\AppDomain.AssemblyInfoInputs.cache
 C:\Users\Lukas Ferreira\Source\Repos\AppEstoqueBrilhador\AppDomain\obj\Debug\netcoreapp3.1\AppDomain.AssemblyInfo.cs
 C:\Users\Lukas Ferreira\Source\Repos\AppEstoqueBrilhador\AppDomain\obj\Debug\netcoreapp3.1\AppDomain.csproj.CoreCompileInputs.cache
