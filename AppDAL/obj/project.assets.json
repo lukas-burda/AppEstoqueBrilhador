@@ -5022,19 +5022,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lukas Ferreira\\.nuget\\packages\\": {}
+    "C:\\Users\\henri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lukas Ferreira\\Source\\Repos\\AppEstoqueBrilhador\\AppDAL\\AppDAL.csproj",
+      "projectUniqueName": "C:\\Users\\henri\\source\\repos\\AppEstoqueBrilhador\\AppDAL\\AppDAL.csproj",
       "projectName": "AppDAL",
-      "projectPath": "C:\\Users\\Lukas Ferreira\\Source\\Repos\\AppEstoqueBrilhador\\AppDAL\\AppDAL.csproj",
-      "packagesPath": "C:\\Users\\Lukas Ferreira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lukas Ferreira\\Source\\Repos\\AppEstoqueBrilhador\\AppDAL\\obj\\",
+      "projectPath": "C:\\Users\\henri\\source\\repos\\AppEstoqueBrilhador\\AppDAL\\AppDAL.csproj",
+      "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\henri\\source\\repos\\AppEstoqueBrilhador\\AppDAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lukas Ferreira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5047,8 +5047,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Lukas Ferreira\\Source\\Repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj": {
-              "projectPath": "C:\\Users\\Lukas Ferreira\\Source\\Repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj"
+            "C:\\Users\\henri\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj": {
+              "projectPath": "C:\\Users\\henri\\source\\repos\\AppEstoqueBrilhador\\AppDomain\\AppDomain.csproj"
             }
           }
         }

@@ -6,6 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Pages\Private\NewFolder\**" />
+    <Content Remove="Pages\Private\NewFolder\**" />
+    <EmbeddedResource Remove="Pages\Private\NewFolder\**" />
+    <None Remove="Pages\Private\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="bootstrap" Version="4.5.0" />
     <PackageReference Include="bootstrap.sass" Version="4.5.0" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.4" />
